@@ -28,7 +28,7 @@ theme_set(theme_bw())
 source("tutorial_scripts/microbiome_scripts.R")
 
 # Define input files
-shared_file = 'tutorial_input/tutorial.norm.shared'
+shared_file = 'tutorial_input/tutorial.0.03.norm.shared'
 taxonomy_file = 'tutorial_input/tutorial.taxonomy'
 
 # Import shared table from Mothur

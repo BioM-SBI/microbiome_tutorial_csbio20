@@ -30,8 +30,8 @@ theme_set(theme_bw())
 source("tutorial_scripts/microbiome_scripts.R")
 
 # Input files
-coordinate = "tutorial_input/tutorial.pcoa.axes"
-var_file = "tutorial_input/tutorial.pcoa.loadings"
+coordinate = "tutorial_input/tutorial.0.03.norm.braycurtis.0.03.lt.pcoa.axes"
+var_file = "tutorial_input/tutorial.0.03.norm.braycurtis.0.03.lt.pcoa.loadings"
 
 # Prepare data for plotting (input from Mothur)
 bray_dist = mothur_pcoa(coordinate, var_file)
