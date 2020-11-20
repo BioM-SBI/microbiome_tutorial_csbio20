@@ -28,7 +28,7 @@ library(RColorBrewer)
 theme_set(theme_bw())
 
 ## Call the functions for microbiome analysis
-source("tutorial_script/microbiome_scripts.R")
+source("tutorial_scripts/microbiome_scripts.R")
 
 # Set path of input files (from mothur)
 shared_file = 'tutorial_inputs/tutorial.0.03.norm.shared'
